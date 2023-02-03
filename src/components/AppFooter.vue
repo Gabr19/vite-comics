@@ -11,42 +11,42 @@ export default{
                 <ul>
                     <li>
                         <div class="img-footer">
-
+                            <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                         </div>
                         <div class="testo">
-
+                            DIGITAL COMICS
                         </div>
                     </li>
                     <li>
                         <div class="img-footer">
-
+                            <img src="../assets/img/buy-comics-merchandise.png" alt="">
                         </div>
                         <div class="testo">
-
+                            DC MERCHANDISE
                         </div>
                     </li>
                     <li>
                         <div class="img-footer">
-
+                            <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                         </div>
                         <div class="testo">
-
+                            SUBSCRIPTION
                         </div>
                     </li>
                     <li>
                         <div class="img-footer">
-
+                            <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                         </div>
                         <div class="testo">
-
+                            COMIC SHOP LOCATOR
                         </div>
                     </li>
                     <li>
                         <div class="img-footer">
-
+                            <img src="../assets/img/buy-dc-power-visa.svg" alt="">
                         </div>
                         <div class="testo">
-
+                            DC POWER VISA
                         </div>
                     </li>
                     
@@ -157,10 +157,26 @@ export default{
         
     };
     .up-footer .container-center-up > ul > li{
-        background-color: #303030;
         height: 50px;
         min-width: 100px;
+        display: flex;
     };
+
+    .up-footer .container-center-up > ul > li > div > img{
+        height: 100%;
+        width: 100%;
+    };
+
+    .up-footer .container-center-up > ul > li .testo{
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    };
+
+
     .middle-footer{
         height: 250px;
         background-color: gray;
@@ -213,13 +229,4 @@ export default{
         border: 1px solid black;
         background-color: #0282f9
     };
-
-
-
-
-    
-
-
-
-
 </style>

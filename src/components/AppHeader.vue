@@ -15,16 +15,16 @@ export default{
             </div>
             <div id="lista">
                 <ul>
-                    <li>characters</li>
-                    <li>comics</li>
-                    <li>movies</li>
-                    <li>tv</li>
-                    <li>games</li>
-                    <li>collectibles</li>
-                    <li>videos</li>
-                    <li>fans</li>
-                    <li>news</li>
-                    <li>shop</li>
+                    <li>CHARACTERS</li>
+                    <li id="active">COMICS</li>
+                    <li>MOVIES</li>
+                    <li>TV</li>
+                    <li>GAMES</li>
+                    <li>COLLECTIBLES</li>
+                    <li>VIDEOS</li>
+                    <li>FANS</li>
+                    <li>NEWS</li>
+                    <li>SHOP</li>
                 </ul>
             </div>
         </div>
@@ -52,7 +52,6 @@ export default{
      #logo{
          height: 50px;
          width: 50px;
-         background-color: aquamarine;
          display: flex;
          padding: 5px;
      };
@@ -68,9 +67,16 @@ export default{
      ul > li{
          list-style: none;
          height: 100%;
-         background-color: aqua;
-         border: 1px solid black;
          margin: 0 5px;
+         display: flex;
+         align-items: center;
+         font-weight: bold;
+
      };
+
+     #active{
+        border-bottom: 3px solid #0282f9;
+        color: #0282f9;
+     }
     
 </style>
