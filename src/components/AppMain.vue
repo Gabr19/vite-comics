@@ -122,10 +122,11 @@ export default{
     };
 
     main #up-main{
-        height: 30%;
+        height: 400px;
         width: 100%;
         background-image: url(../assets/img/jumbotron.jpg
         );
+        background-size: cover;
     };
 
     main #down-main{

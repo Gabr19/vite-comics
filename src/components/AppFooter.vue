@@ -194,6 +194,7 @@ export default{
         justify-content: center;
         color: white;
         background-image: url(../assets/img/footer-bg.jpg);
+        background-size: cover;
         
     };
 
